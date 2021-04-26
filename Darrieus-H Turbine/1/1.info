@@ -1,0 +1,401 @@
+
+    System Info
+                Status:   Solver is finished.
+                Product:   Flow Simulation 2018 SP0.0. Build: 3996
+                Computer name:   DESKTOP-NEMM529
+                User name:   Admin
+                Processors:   Intel(R) Core(TM) i7-7600U CPU @ 2.80GHz
+                Memory:   8067 MB / 134217727 MB
+                Operating system:   Windows 10 (or higher) (Version 10.0.18363)
+                CAD version:   SOLIDWORKS 2018 SP0.1
+                CPU speed:   2904 (2803) MHz
+
+    General Info
+                Model:   darrieus_h_turbine_assembly.SLDASM
+                Project name:   Darrieus_Coastal
+                Project path:   C:\Users\Admin\Documents\Darrieus-H Turbine\1
+                Units system:   SI (m-kg-s)
+                Analysis type:   External (exclude internal spaces)
+                Exclude cavities without flow conditions :   On
+                Coordinate system:   Global coordinate system
+                Reference axis:   X
+
+    Physical Features
+                Heat conduction in solids:   Off
+                Time dependent:   Off
+                Gravitational effects:   On
+                Flow type:   Laminar and turbulent
+                High Mach number flow:   Off
+                Relative humidity:   60.00 %
+                Default roughness:   0 micrometer
+
+        Gravitational Settings
+                X component:   0 m/s^2
+                Y component:   -9.81 m/s^2
+                Z component:   0 m/s^2
+                Default wall conditions:   Adiabatic wall
+
+    Computational Domain
+
+        Size
+                X min:   -0.281 m
+                X max:   0.319 m
+                Y min:   -0.053 m
+                Y max:   1.016 m
+                Z min:   -1.557 m
+                Z max:   1.680 m
+
+    Calculation Mesh
+
+        Basic Mesh Dimensions
+                Number of cells in X:   4
+                Number of cells in Y:   6
+                Number of cells in Z:   10
+
+        Number Of Cells
+                Cells:   1651
+                Fluid cells:   1651
+                Irregular cells:   0
+                Trimmed cells:   0
+                Maximum refinement level:   2
+
+    Goals
+
+        Surface Goals
+
+            SG Av Static Pressure 1
+                Type:   Surface Goal
+                Goal type:   Static Pressure
+                Calculate:   Average value
+                Faces:   darrieus_h_rotor-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-3@darrieus_h_turbine_assembly, darrieus_h_rotor-4@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-8@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-12@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-10@darrieus_h_turbine_assembly, darrieus_h_connector-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-6@darrieus_h_turbine_assembly, darrieus_h_shaft-1@darrieus_h_turbine_assembly, darrieus_h_connector-1@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-4@darrieus_h_turbine_assembly, darrieus_h_rotor-1@darrieus_h_turbine_assembly, darrieus_h_stand-1@darrieus_h_turbine_assembly
+                Coordinate system:   Coordinate System1
+                Use in convergence :   On
+
+            SG Max Static Pressure 1
+                Type:   Surface Goal
+                Goal type:   Static Pressure
+                Calculate:   Maximum value
+                Faces:   darrieus_h_rotor-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-3@darrieus_h_turbine_assembly, darrieus_h_rotor-4@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-8@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-12@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-10@darrieus_h_turbine_assembly, darrieus_h_connector-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-6@darrieus_h_turbine_assembly, darrieus_h_shaft-1@darrieus_h_turbine_assembly, darrieus_h_connector-1@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-4@darrieus_h_turbine_assembly, darrieus_h_rotor-1@darrieus_h_turbine_assembly, darrieus_h_stand-1@darrieus_h_turbine_assembly
+                Coordinate system:   Coordinate System1
+                Use in convergence :   On
+
+            SG Av Total Pressure 1
+                Type:   Surface Goal
+                Goal type:   Total Pressure
+                Calculate:   Average value
+                Faces:   darrieus_h_rotor-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-3@darrieus_h_turbine_assembly, darrieus_h_rotor-4@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-8@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-12@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-10@darrieus_h_turbine_assembly, darrieus_h_connector-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-6@darrieus_h_turbine_assembly, darrieus_h_shaft-1@darrieus_h_turbine_assembly, darrieus_h_connector-1@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-4@darrieus_h_turbine_assembly, darrieus_h_rotor-1@darrieus_h_turbine_assembly, darrieus_h_stand-1@darrieus_h_turbine_assembly
+                Coordinate system:   Coordinate System1
+                Use in convergence :   On
+
+            SG Max Total Pressure 1
+                Type:   Surface Goal
+                Goal type:   Total Pressure
+                Calculate:   Maximum value
+                Faces:   darrieus_h_rotor-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-3@darrieus_h_turbine_assembly, darrieus_h_rotor-4@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-8@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-12@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-10@darrieus_h_turbine_assembly, darrieus_h_connector-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-6@darrieus_h_turbine_assembly, darrieus_h_shaft-1@darrieus_h_turbine_assembly, darrieus_h_connector-1@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-4@darrieus_h_turbine_assembly, darrieus_h_rotor-1@darrieus_h_turbine_assembly, darrieus_h_stand-1@darrieus_h_turbine_assembly
+                Coordinate system:   Coordinate System1
+                Use in convergence :   On
+
+            SG Av Dynamic Pressure 1
+                Type:   Surface Goal
+                Goal type:   Dynamic Pressure
+                Calculate:   Average value
+                Faces:   darrieus_h_rotor-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-3@darrieus_h_turbine_assembly, darrieus_h_rotor-4@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-8@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-12@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-10@darrieus_h_turbine_assembly, darrieus_h_connector-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-6@darrieus_h_turbine_assembly, darrieus_h_shaft-1@darrieus_h_turbine_assembly, darrieus_h_connector-1@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-4@darrieus_h_turbine_assembly, darrieus_h_rotor-1@darrieus_h_turbine_assembly, darrieus_h_stand-1@darrieus_h_turbine_assembly
+                Coordinate system:   Coordinate System1
+                Use in convergence :   On
+
+            SG Max Dynamic Pressure 1
+                Type:   Surface Goal
+                Goal type:   Dynamic Pressure
+                Calculate:   Maximum value
+                Faces:   darrieus_h_rotor-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-3@darrieus_h_turbine_assembly, darrieus_h_rotor-4@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-8@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-12@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-10@darrieus_h_turbine_assembly, darrieus_h_connector-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-6@darrieus_h_turbine_assembly, darrieus_h_shaft-1@darrieus_h_turbine_assembly, darrieus_h_connector-1@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-4@darrieus_h_turbine_assembly, darrieus_h_rotor-1@darrieus_h_turbine_assembly, darrieus_h_stand-1@darrieus_h_turbine_assembly
+                Coordinate system:   Coordinate System1
+                Use in convergence :   On
+
+            SG Av Velocity 1
+                Type:   Surface Goal
+                Goal type:   Velocity
+                Calculate:   Average value
+                Faces:   darrieus_h_rotor-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-3@darrieus_h_turbine_assembly, darrieus_h_rotor-4@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-8@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-12@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-10@darrieus_h_turbine_assembly, darrieus_h_connector-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-6@darrieus_h_turbine_assembly, darrieus_h_shaft-1@darrieus_h_turbine_assembly, darrieus_h_connector-1@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-4@darrieus_h_turbine_assembly, darrieus_h_rotor-1@darrieus_h_turbine_assembly, darrieus_h_stand-1@darrieus_h_turbine_assembly
+                Coordinate system:   Coordinate System1
+                Use in convergence :   On
+
+            SG Max Velocity 1
+                Type:   Surface Goal
+                Goal type:   Velocity
+                Calculate:   Maximum value
+                Faces:   darrieus_h_rotor-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-3@darrieus_h_turbine_assembly, darrieus_h_rotor-4@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-8@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-12@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-10@darrieus_h_turbine_assembly, darrieus_h_connector-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-6@darrieus_h_turbine_assembly, darrieus_h_shaft-1@darrieus_h_turbine_assembly, darrieus_h_connector-1@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-4@darrieus_h_turbine_assembly, darrieus_h_rotor-1@darrieus_h_turbine_assembly, darrieus_h_stand-1@darrieus_h_turbine_assembly
+                Coordinate system:   Coordinate System1
+                Use in convergence :   On
+
+            SG Av Velocity (X) 1
+                Type:   Surface Goal
+                Goal type:   Velocity (X)
+                Calculate:   Average value
+                Faces:   darrieus_h_rotor-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-3@darrieus_h_turbine_assembly, darrieus_h_rotor-4@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-8@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-12@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-10@darrieus_h_turbine_assembly, darrieus_h_connector-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-6@darrieus_h_turbine_assembly, darrieus_h_shaft-1@darrieus_h_turbine_assembly, darrieus_h_connector-1@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-4@darrieus_h_turbine_assembly, darrieus_h_rotor-1@darrieus_h_turbine_assembly, darrieus_h_stand-1@darrieus_h_turbine_assembly
+                Coordinate system:   Coordinate System1
+                Use in convergence :   On
+
+            SG Max Velocity (X) 1
+                Type:   Surface Goal
+                Goal type:   Velocity (X)
+                Calculate:   Maximum value
+                Faces:   darrieus_h_rotor-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-3@darrieus_h_turbine_assembly, darrieus_h_rotor-4@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-8@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-12@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-10@darrieus_h_turbine_assembly, darrieus_h_connector-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-6@darrieus_h_turbine_assembly, darrieus_h_shaft-1@darrieus_h_turbine_assembly, darrieus_h_connector-1@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-4@darrieus_h_turbine_assembly, darrieus_h_rotor-1@darrieus_h_turbine_assembly, darrieus_h_stand-1@darrieus_h_turbine_assembly
+                Coordinate system:   Coordinate System1
+                Use in convergence :   On
+
+            SG Av Velocity (Y) 1
+                Type:   Surface Goal
+                Goal type:   Velocity (Y)
+                Calculate:   Average value
+                Faces:   darrieus_h_rotor-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-3@darrieus_h_turbine_assembly, darrieus_h_rotor-4@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-8@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-12@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-10@darrieus_h_turbine_assembly, darrieus_h_connector-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-6@darrieus_h_turbine_assembly, darrieus_h_shaft-1@darrieus_h_turbine_assembly, darrieus_h_connector-1@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-4@darrieus_h_turbine_assembly, darrieus_h_rotor-1@darrieus_h_turbine_assembly, darrieus_h_stand-1@darrieus_h_turbine_assembly
+                Coordinate system:   Coordinate System1
+                Use in convergence :   On
+
+            SG Max Velocity (Y) 1
+                Type:   Surface Goal
+                Goal type:   Velocity (Y)
+                Calculate:   Maximum value
+                Faces:   darrieus_h_rotor-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-3@darrieus_h_turbine_assembly, darrieus_h_rotor-4@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-8@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-12@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-10@darrieus_h_turbine_assembly, darrieus_h_connector-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-6@darrieus_h_turbine_assembly, darrieus_h_shaft-1@darrieus_h_turbine_assembly, darrieus_h_connector-1@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-4@darrieus_h_turbine_assembly, darrieus_h_rotor-1@darrieus_h_turbine_assembly, darrieus_h_stand-1@darrieus_h_turbine_assembly
+                Coordinate system:   Coordinate System1
+                Use in convergence :   On
+
+            SG Av Velocity (Z) 1
+                Type:   Surface Goal
+                Goal type:   Velocity (Z)
+                Calculate:   Average value
+                Faces:   darrieus_h_rotor-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-3@darrieus_h_turbine_assembly, darrieus_h_rotor-4@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-8@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-12@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-10@darrieus_h_turbine_assembly, darrieus_h_connector-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-6@darrieus_h_turbine_assembly, darrieus_h_shaft-1@darrieus_h_turbine_assembly, darrieus_h_connector-1@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-4@darrieus_h_turbine_assembly, darrieus_h_rotor-1@darrieus_h_turbine_assembly, darrieus_h_stand-1@darrieus_h_turbine_assembly
+                Coordinate system:   Coordinate System1
+                Use in convergence :   On
+
+            SG Max Velocity (Z) 1
+                Type:   Surface Goal
+                Goal type:   Velocity (Z)
+                Calculate:   Maximum value
+                Faces:   darrieus_h_rotor-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-3@darrieus_h_turbine_assembly, darrieus_h_rotor-4@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-8@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-12@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-10@darrieus_h_turbine_assembly, darrieus_h_connector-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-6@darrieus_h_turbine_assembly, darrieus_h_shaft-1@darrieus_h_turbine_assembly, darrieus_h_connector-1@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-4@darrieus_h_turbine_assembly, darrieus_h_rotor-1@darrieus_h_turbine_assembly, darrieus_h_stand-1@darrieus_h_turbine_assembly
+                Coordinate system:   Coordinate System1
+                Use in convergence :   On
+
+            SG Normal Force 1
+                Type:   Surface Goal
+                Goal type:   Normal Force
+                Faces:   darrieus_h_rotor-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-3@darrieus_h_turbine_assembly, darrieus_h_rotor-4@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-8@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-12@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-10@darrieus_h_turbine_assembly, darrieus_h_connector-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-6@darrieus_h_turbine_assembly, darrieus_h_shaft-1@darrieus_h_turbine_assembly, darrieus_h_connector-1@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-4@darrieus_h_turbine_assembly, darrieus_h_rotor-1@darrieus_h_turbine_assembly, darrieus_h_stand-1@darrieus_h_turbine_assembly
+                Coordinate system:   Coordinate System1
+                Use in convergence :   On
+
+            SG Normal Force (X) 1
+                Type:   Surface Goal
+                Goal type:   Normal Force (X)
+                Faces:   darrieus_h_rotor-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-3@darrieus_h_turbine_assembly, darrieus_h_rotor-4@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-8@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-12@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-10@darrieus_h_turbine_assembly, darrieus_h_connector-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-6@darrieus_h_turbine_assembly, darrieus_h_shaft-1@darrieus_h_turbine_assembly, darrieus_h_connector-1@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-4@darrieus_h_turbine_assembly, darrieus_h_rotor-1@darrieus_h_turbine_assembly, darrieus_h_stand-1@darrieus_h_turbine_assembly
+                Coordinate system:   Coordinate System1
+                Use in convergence :   On
+
+            SG Normal Force (Y) 1
+                Type:   Surface Goal
+                Goal type:   Normal Force (Y)
+                Faces:   darrieus_h_rotor-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-3@darrieus_h_turbine_assembly, darrieus_h_rotor-4@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-8@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-12@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-10@darrieus_h_turbine_assembly, darrieus_h_connector-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-6@darrieus_h_turbine_assembly, darrieus_h_shaft-1@darrieus_h_turbine_assembly, darrieus_h_connector-1@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-4@darrieus_h_turbine_assembly, darrieus_h_rotor-1@darrieus_h_turbine_assembly, darrieus_h_stand-1@darrieus_h_turbine_assembly
+                Coordinate system:   Coordinate System1
+                Use in convergence :   On
+
+            SG Normal Force (Z) 1
+                Type:   Surface Goal
+                Goal type:   Normal Force (Z)
+                Faces:   darrieus_h_rotor-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-3@darrieus_h_turbine_assembly, darrieus_h_rotor-4@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-8@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-12@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-10@darrieus_h_turbine_assembly, darrieus_h_connector-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-6@darrieus_h_turbine_assembly, darrieus_h_shaft-1@darrieus_h_turbine_assembly, darrieus_h_connector-1@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-4@darrieus_h_turbine_assembly, darrieus_h_rotor-1@darrieus_h_turbine_assembly, darrieus_h_stand-1@darrieus_h_turbine_assembly
+                Coordinate system:   Coordinate System1
+                Use in convergence :   On
+
+            SG Force 1
+                Type:   Surface Goal
+                Goal type:   Force
+                Faces:   darrieus_h_rotor-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-3@darrieus_h_turbine_assembly, darrieus_h_rotor-4@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-8@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-12@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-10@darrieus_h_turbine_assembly, darrieus_h_connector-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-6@darrieus_h_turbine_assembly, darrieus_h_shaft-1@darrieus_h_turbine_assembly, darrieus_h_connector-1@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-4@darrieus_h_turbine_assembly, darrieus_h_rotor-1@darrieus_h_turbine_assembly, darrieus_h_stand-1@darrieus_h_turbine_assembly
+                Coordinate system:   Coordinate System1
+                Use in convergence :   On
+
+            SG Force (X) 1
+                Type:   Surface Goal
+                Goal type:   Force (X)
+                Faces:   darrieus_h_rotor-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-3@darrieus_h_turbine_assembly, darrieus_h_rotor-4@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-8@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-12@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-10@darrieus_h_turbine_assembly, darrieus_h_connector-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-6@darrieus_h_turbine_assembly, darrieus_h_shaft-1@darrieus_h_turbine_assembly, darrieus_h_connector-1@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-4@darrieus_h_turbine_assembly, darrieus_h_rotor-1@darrieus_h_turbine_assembly, darrieus_h_stand-1@darrieus_h_turbine_assembly
+                Coordinate system:   Coordinate System1
+                Use in convergence :   On
+
+            SG Force (Y) 1
+                Type:   Surface Goal
+                Goal type:   Force (Y)
+                Faces:   darrieus_h_rotor-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-3@darrieus_h_turbine_assembly, darrieus_h_rotor-4@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-8@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-12@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-10@darrieus_h_turbine_assembly, darrieus_h_connector-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-6@darrieus_h_turbine_assembly, darrieus_h_shaft-1@darrieus_h_turbine_assembly, darrieus_h_connector-1@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-4@darrieus_h_turbine_assembly, darrieus_h_rotor-1@darrieus_h_turbine_assembly, darrieus_h_stand-1@darrieus_h_turbine_assembly
+                Coordinate system:   Coordinate System1
+                Use in convergence :   On
+
+            SG Force (Z) 1
+                Type:   Surface Goal
+                Goal type:   Force (Z)
+                Faces:   darrieus_h_rotor-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-3@darrieus_h_turbine_assembly, darrieus_h_rotor-4@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-8@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-12@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-10@darrieus_h_turbine_assembly, darrieus_h_connector-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-6@darrieus_h_turbine_assembly, darrieus_h_shaft-1@darrieus_h_turbine_assembly, darrieus_h_connector-1@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-4@darrieus_h_turbine_assembly, darrieus_h_rotor-1@darrieus_h_turbine_assembly, darrieus_h_stand-1@darrieus_h_turbine_assembly
+                Coordinate system:   Coordinate System1
+                Use in convergence :   On
+
+            SG Friction Force 1
+                Type:   Surface Goal
+                Goal type:   Friction Force
+                Faces:   darrieus_h_rotor-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-3@darrieus_h_turbine_assembly, darrieus_h_rotor-4@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-8@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-12@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-10@darrieus_h_turbine_assembly, darrieus_h_connector-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-6@darrieus_h_turbine_assembly, darrieus_h_shaft-1@darrieus_h_turbine_assembly, darrieus_h_connector-1@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-4@darrieus_h_turbine_assembly, darrieus_h_rotor-1@darrieus_h_turbine_assembly, darrieus_h_stand-1@darrieus_h_turbine_assembly
+                Coordinate system:   Coordinate System1
+                Use in convergence :   On
+
+            SG Friction Force (X) 1
+                Type:   Surface Goal
+                Goal type:   Friction Force (X)
+                Faces:   darrieus_h_rotor-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-3@darrieus_h_turbine_assembly, darrieus_h_rotor-4@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-8@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-12@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-10@darrieus_h_turbine_assembly, darrieus_h_connector-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-6@darrieus_h_turbine_assembly, darrieus_h_shaft-1@darrieus_h_turbine_assembly, darrieus_h_connector-1@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-4@darrieus_h_turbine_assembly, darrieus_h_rotor-1@darrieus_h_turbine_assembly, darrieus_h_stand-1@darrieus_h_turbine_assembly
+                Coordinate system:   Coordinate System1
+                Use in convergence :   On
+
+            SG Friction Force (Y) 1
+                Type:   Surface Goal
+                Goal type:   Friction Force (Y)
+                Faces:   darrieus_h_rotor-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-3@darrieus_h_turbine_assembly, darrieus_h_rotor-4@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-8@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-12@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-10@darrieus_h_turbine_assembly, darrieus_h_connector-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-6@darrieus_h_turbine_assembly, darrieus_h_shaft-1@darrieus_h_turbine_assembly, darrieus_h_connector-1@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-4@darrieus_h_turbine_assembly, darrieus_h_rotor-1@darrieus_h_turbine_assembly, darrieus_h_stand-1@darrieus_h_turbine_assembly
+                Coordinate system:   Coordinate System1
+                Use in convergence :   On
+
+            SG Friction Force (Z) 1
+                Type:   Surface Goal
+                Goal type:   Friction Force (Z)
+                Faces:   darrieus_h_rotor-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-3@darrieus_h_turbine_assembly, darrieus_h_rotor-4@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-8@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-12@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-10@darrieus_h_turbine_assembly, darrieus_h_connector-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-6@darrieus_h_turbine_assembly, darrieus_h_shaft-1@darrieus_h_turbine_assembly, darrieus_h_connector-1@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-4@darrieus_h_turbine_assembly, darrieus_h_rotor-1@darrieus_h_turbine_assembly, darrieus_h_stand-1@darrieus_h_turbine_assembly
+                Coordinate system:   Coordinate System1
+                Use in convergence :   On
+
+            SG Av Shear Stress 1
+                Type:   Surface Goal
+                Goal type:   Shear Stress
+                Calculate:   Average value
+                Faces:   darrieus_h_rotor-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-3@darrieus_h_turbine_assembly, darrieus_h_rotor-4@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-8@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-12@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-10@darrieus_h_turbine_assembly, darrieus_h_connector-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-6@darrieus_h_turbine_assembly, darrieus_h_shaft-1@darrieus_h_turbine_assembly, darrieus_h_connector-1@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-4@darrieus_h_turbine_assembly, darrieus_h_rotor-1@darrieus_h_turbine_assembly, darrieus_h_stand-1@darrieus_h_turbine_assembly
+                Coordinate system:   Coordinate System1
+                Use in convergence :   On
+
+            SG Max Shear Stress 1
+                Type:   Surface Goal
+                Goal type:   Shear Stress
+                Calculate:   Maximum value
+                Faces:   darrieus_h_rotor-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-3@darrieus_h_turbine_assembly, darrieus_h_rotor-4@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-8@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-12@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-10@darrieus_h_turbine_assembly, darrieus_h_connector-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-6@darrieus_h_turbine_assembly, darrieus_h_shaft-1@darrieus_h_turbine_assembly, darrieus_h_connector-1@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-4@darrieus_h_turbine_assembly, darrieus_h_rotor-1@darrieus_h_turbine_assembly, darrieus_h_stand-1@darrieus_h_turbine_assembly
+                Coordinate system:   Coordinate System1
+                Use in convergence :   On
+
+            SG Av Shear Stress (X) 1
+                Type:   Surface Goal
+                Goal type:   Shear Stress (X)
+                Calculate:   Average value
+                Faces:   darrieus_h_rotor-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-3@darrieus_h_turbine_assembly, darrieus_h_rotor-4@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-8@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-12@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-10@darrieus_h_turbine_assembly, darrieus_h_connector-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-6@darrieus_h_turbine_assembly, darrieus_h_shaft-1@darrieus_h_turbine_assembly, darrieus_h_connector-1@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-4@darrieus_h_turbine_assembly, darrieus_h_rotor-1@darrieus_h_turbine_assembly, darrieus_h_stand-1@darrieus_h_turbine_assembly
+                Coordinate system:   Coordinate System1
+                Use in convergence :   On
+
+            SG Max Shear Stress (X) 1
+                Type:   Surface Goal
+                Goal type:   Shear Stress (X)
+                Calculate:   Maximum value
+                Faces:   darrieus_h_rotor-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-3@darrieus_h_turbine_assembly, darrieus_h_rotor-4@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-8@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-12@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-10@darrieus_h_turbine_assembly, darrieus_h_connector-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-6@darrieus_h_turbine_assembly, darrieus_h_shaft-1@darrieus_h_turbine_assembly, darrieus_h_connector-1@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-4@darrieus_h_turbine_assembly, darrieus_h_rotor-1@darrieus_h_turbine_assembly, darrieus_h_stand-1@darrieus_h_turbine_assembly
+                Coordinate system:   Coordinate System1
+                Use in convergence :   On
+
+            SG Av Shear Stress (Y) 1
+                Type:   Surface Goal
+                Goal type:   Shear Stress (Y)
+                Calculate:   Average value
+                Faces:   darrieus_h_rotor-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-3@darrieus_h_turbine_assembly, darrieus_h_rotor-4@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-8@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-12@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-10@darrieus_h_turbine_assembly, darrieus_h_connector-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-6@darrieus_h_turbine_assembly, darrieus_h_shaft-1@darrieus_h_turbine_assembly, darrieus_h_connector-1@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-4@darrieus_h_turbine_assembly, darrieus_h_rotor-1@darrieus_h_turbine_assembly, darrieus_h_stand-1@darrieus_h_turbine_assembly
+                Coordinate system:   Coordinate System1
+                Use in convergence :   On
+
+            SG Max Shear Stress (Y) 1
+                Type:   Surface Goal
+                Goal type:   Shear Stress (Y)
+                Calculate:   Maximum value
+                Faces:   darrieus_h_rotor-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-3@darrieus_h_turbine_assembly, darrieus_h_rotor-4@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-8@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-12@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-10@darrieus_h_turbine_assembly, darrieus_h_connector-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-6@darrieus_h_turbine_assembly, darrieus_h_shaft-1@darrieus_h_turbine_assembly, darrieus_h_connector-1@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-4@darrieus_h_turbine_assembly, darrieus_h_rotor-1@darrieus_h_turbine_assembly, darrieus_h_stand-1@darrieus_h_turbine_assembly
+                Coordinate system:   Coordinate System1
+                Use in convergence :   On
+
+            SG Av Shear Stress (Z) 1
+                Type:   Surface Goal
+                Goal type:   Shear Stress (Z)
+                Calculate:   Average value
+                Faces:   darrieus_h_rotor-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-3@darrieus_h_turbine_assembly, darrieus_h_rotor-4@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-8@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-12@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-10@darrieus_h_turbine_assembly, darrieus_h_connector-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-6@darrieus_h_turbine_assembly, darrieus_h_shaft-1@darrieus_h_turbine_assembly, darrieus_h_connector-1@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-4@darrieus_h_turbine_assembly, darrieus_h_rotor-1@darrieus_h_turbine_assembly, darrieus_h_stand-1@darrieus_h_turbine_assembly
+                Coordinate system:   Coordinate System1
+                Use in convergence :   On
+
+            SG Max Shear Stress (Z) 1
+                Type:   Surface Goal
+                Goal type:   Shear Stress (Z)
+                Calculate:   Maximum value
+                Faces:   darrieus_h_rotor-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-3@darrieus_h_turbine_assembly, darrieus_h_rotor-4@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-8@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-12@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-10@darrieus_h_turbine_assembly, darrieus_h_connector-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-6@darrieus_h_turbine_assembly, darrieus_h_shaft-1@darrieus_h_turbine_assembly, darrieus_h_connector-1@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-4@darrieus_h_turbine_assembly, darrieus_h_rotor-1@darrieus_h_turbine_assembly, darrieus_h_stand-1@darrieus_h_turbine_assembly
+                Coordinate system:   Coordinate System1
+                Use in convergence :   On
+
+            SG Torque (X) 1
+                Type:   Surface Goal
+                Goal type:   Torque (X)
+                Faces:   darrieus_h_rotor-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-3@darrieus_h_turbine_assembly, darrieus_h_rotor-4@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-8@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-12@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-10@darrieus_h_turbine_assembly, darrieus_h_connector-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-6@darrieus_h_turbine_assembly, darrieus_h_shaft-1@darrieus_h_turbine_assembly, darrieus_h_connector-1@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-4@darrieus_h_turbine_assembly, darrieus_h_rotor-1@darrieus_h_turbine_assembly, darrieus_h_stand-1@darrieus_h_turbine_assembly
+                Coordinate system:   Coordinate System1
+                Use in convergence :   On
+
+            SG Torque (Y) 1
+                Type:   Surface Goal
+                Goal type:   Torque (Y)
+                Faces:   darrieus_h_rotor-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-3@darrieus_h_turbine_assembly, darrieus_h_rotor-4@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-8@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-12@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-10@darrieus_h_turbine_assembly, darrieus_h_connector-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-6@darrieus_h_turbine_assembly, darrieus_h_shaft-1@darrieus_h_turbine_assembly, darrieus_h_connector-1@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-4@darrieus_h_turbine_assembly, darrieus_h_rotor-1@darrieus_h_turbine_assembly, darrieus_h_stand-1@darrieus_h_turbine_assembly
+                Coordinate system:   Coordinate System1
+                Use in convergence :   On
+
+            SG Torque (Z) 1
+                Type:   Surface Goal
+                Goal type:   Torque (Z)
+                Faces:   darrieus_h_rotor-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-3@darrieus_h_turbine_assembly, darrieus_h_rotor-4@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-8@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-12@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-10@darrieus_h_turbine_assembly, darrieus_h_connector-2@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-6@darrieus_h_turbine_assembly, darrieus_h_shaft-1@darrieus_h_turbine_assembly, darrieus_h_connector-1@darrieus_h_turbine_assembly, darrieus_h_connecting_rod-4@darrieus_h_turbine_assembly, darrieus_h_rotor-1@darrieus_h_turbine_assembly, darrieus_h_stand-1@darrieus_h_turbine_assembly
+                Coordinate system:   Coordinate System1
+                Use in convergence :   On
+
+    Goals
+                
+                Name                        	Unit   	Value       	Progress   	Criteria        	Delta           	Use in convergence 
+                SG Av Static Pressure 1     	Pa     	101348.63   	100        	40.6148037      	2.52730806      	On                 
+                SG Max Static Pressure 1    	Pa     	105065.42   	100        	405.553597      	174.939815      	On                 
+                SG Av Total Pressure 1      	Pa     	101348.63   	100        	40.6148037      	2.52730806      	On                 
+                SG Max Total Pressure 1     	Pa     	105065.42   	100        	405.553597      	174.939815      	On                 
+                SG Av Dynamic Pressure 1    	Pa     	0           	100        	0               	0               	On                 
+                SG Max Dynamic Pressure 1   	Pa     	0           	100        	0               	0               	On                 
+                SG Av Velocity 1            	m/s    	0           	100        	0               	0               	On                 
+                SG Max Velocity 1           	m/s    	0           	100        	0               	0               	On                 
+                SG Av Velocity (X) 1        	m/s    	0           	100        	0               	0               	On                 
+                SG Max Velocity (X) 1       	m/s    	0           	100        	0               	0               	On                 
+                SG Av Velocity (Y) 1        	m/s    	0           	100        	0               	0               	On                 
+                SG Max Velocity (Y) 1       	m/s    	0           	100        	0               	0               	On                 
+                SG Av Velocity (Z) 1        	m/s    	0           	100        	0               	0               	On                 
+                SG Max Velocity (Z) 1       	m/s    	0           	100        	0               	0               	On                 
+                SG Normal Force 1           	N      	92.788      	100        	13.4197414      	0.555411685     	On                 
+                SG Normal Force (X) 1       	N      	10.772      	100        	1.96829504      	0.341063809     	On                 
+                SG Normal Force (Y) 1       	N      	-1.083      	100        	0.117351648     	0.066748213     	On                 
+                SG Normal Force (Z) 1       	N      	-92.155     	100        	13.3120533      	0.601878291     	On                 
+                SG Force 1                  	N      	93.013      	100        	13.4524474      	0.55650168      	On                 
+                SG Force (X) 1              	N      	10.784      	100        	1.96864265      	0.333570913     	On                 
+                SG Force (Y) 1              	N      	-1.084      	100        	0.118413622     	0.0734050814    	On                 
+                SG Force (Z) 1              	N      	-92.379     	100        	13.3462274      	0.602619536     	On                 
+                SG Friction Force 1         	N      	0.225       	100        	0.0343226211    	0.0012974574    	On                 
+                SG Friction Force (X) 1     	N      	0.012       	100        	0.00291962041   	0.00198119771   	On                 
+                SG Friction Force (Y) 1     	N      	-0.002      	100        	0.00201435153   	0.00143045016   	On                 
+                SG Friction Force (Z) 1     	N      	-0.225      	100        	0.0343003422    	0.00130815164   	On                 
+                SG Av Shear Stress 1        	Pa     	2.03        	100        	0.310626976     	0.0248634776    	On                 
+                SG Max Shear Stress 1       	Pa     	10.44       	100        	1.62838509      	0.442422955     	On                 
+                SG Av Shear Stress (X) 1    	Pa     	0.06        	100        	0.0139100004    	0.00943905614   	On                 
+                SG Max Shear Stress (X) 1   	Pa     	7.15        	100        	1.06930562      	0.0419178087    	On                 
+                SG Av Shear Stress (Y) 1    	Pa     	-8.79e-03   	100        	0.00959701148   	0.0068151196    	On                 
+                SG Max Shear Stress (Y) 1   	Pa     	6.77        	100        	1.00903149      	0.13794046      	On                 
+                SG Av Shear Stress (Z) 1    	Pa     	-1.07       	100        	0.163417742     	0.00623245058   	On                 
+                SG Max Shear Stress (Z) 1   	Pa     	0.34        	100        	0.201430365     	0.186182712     	On                 
+                SG Torque (X) 1             	N*m    	-32.268     	100        	4.70128901      	0.161867902     	On                 
+                SG Torque (Y) 1             	N*m    	0.659       	100        	0.0572721351    	0.0566740863    	On                 
+                SG Torque (Z) 1             	N*m    	-3.968      	100        	0.711247451     	0.11995439      	On                 
+
+    General Info
+                Run at:   DESKTOP-NEMM529
+                Number of cores:   4
+                Iterations:   146
+                CPU time:   40 s
+
+        Log
+                Mesh generation started	0:   17:55:51 , Apr 25
+                Mesh generation normally finished	0:   17:55:52 , Apr 25
+                Preparing data for calculation	0:   17:55:54 , Apr 25
+                Calculation started	0:   17:55:56 , Apr 25
+                Calculation has converged since the following criteria are satisfied:	140:   17:56:28 , Apr 25
+                    Goals are converged	140:   
+                Calculation finished	141:   17:56:28 , Apr 25

@@ -1,0 +1,297 @@
+
+    System Info
+                Status:   Solver is finished.
+                Product:   Flow Simulation 2018 SP0.0. Build: 3996
+                Computer name:   DESKTOP-NEMM529
+                User name:   Admin
+                Processors:   Intel(R) Core(TM) i7-7600U CPU @ 2.80GHz
+                Memory:   8067 MB / 134217727 MB
+                Operating system:   Windows 10 (or higher) (Version 10.0.18363)
+                CAD version:   SOLIDWORKS 2018 SP0.1
+                CPU speed:   2904 (2803) MHz
+
+    General Info
+                Model:   helix_turbine_assembly.SLDASM
+                Project name:   Helix_NorthernPlains
+                Project path:   E:\Desktop\Downloads\Helix Turbine\3
+                Units system:   SI (m-kg-s)
+                Analysis type:   External (exclude internal spaces)
+                Exclude cavities without flow conditions :   On
+                Coordinate system:   Global coordinate system
+                Reference axis:   X
+
+    Physical Features
+                Heat conduction in solids:   Off
+                Time dependent:   Off
+                Gravitational effects:   On
+                Flow type:   Laminar and turbulent
+                High Mach number flow:   Off
+                Relative humidity:   40.00 %
+                Default roughness:   0 micrometer
+
+        Gravitational Settings
+                X component:   0 m/s^2
+                Y component:   -9.81 m/s^2
+                Z component:   0 m/s^2
+                Default wall conditions:   Adiabatic wall
+
+    Computational Domain
+
+        Size
+                X min:   -0.238 m
+                X max:   0.320 m
+                Y min:   -1.661 m
+                Y max:   1.521 m
+                Z min:   -1.071 m
+                Z max:   0 m
+
+    Calculation Mesh
+
+        Basic Mesh Dimensions
+                Number of cells in X:   4
+                Number of cells in Y:   10
+                Number of cells in Z:   6
+
+        Number Of Cells
+                Cells:   1860
+                Fluid cells:   1860
+                Irregular cells:   0
+                Trimmed cells:   0
+                Maximum refinement level:   2
+
+    Goals
+
+        Surface Goals
+
+            SG Av Static Pressure 1
+                Type:   Surface Goal
+                Goal type:   Static Pressure
+                Calculate:   Average value
+                Faces:   holder-2@helix_turbine_assembly, connecting_rod-1@helix_turbine_assembly, connecting_rod-5@helix_turbine_assembly, helix_rotor-2@helix_turbine_assembly, holder-1@helix_turbine_assembly, holder-5@helix_turbine_assembly, shaft-1@helix_turbine_assembly, stand-2@helix_turbine_assembly, connector-5@helix_turbine_assembly, connecting_rod-7@helix_turbine_assembly, connecting_rod-11@helix_turbine_assembly, helix_rotor-1@helix_turbine_assembly, connecting_rod-9@helix_turbine_assembly, helix_rotor-4@helix_turbine_assembly, connector-1@helix_turbine_assembly, connecting_rod-2@helix_turbine_assembly
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            SG Max Static Pressure 1
+                Type:   Surface Goal
+                Goal type:   Static Pressure
+                Calculate:   Maximum value
+                Faces:   holder-2@helix_turbine_assembly, connecting_rod-1@helix_turbine_assembly, connecting_rod-5@helix_turbine_assembly, helix_rotor-2@helix_turbine_assembly, holder-1@helix_turbine_assembly, holder-5@helix_turbine_assembly, shaft-1@helix_turbine_assembly, stand-2@helix_turbine_assembly, connector-5@helix_turbine_assembly, connecting_rod-7@helix_turbine_assembly, connecting_rod-11@helix_turbine_assembly, helix_rotor-1@helix_turbine_assembly, connecting_rod-9@helix_turbine_assembly, helix_rotor-4@helix_turbine_assembly, connector-1@helix_turbine_assembly, connecting_rod-2@helix_turbine_assembly
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            SG Av Total Pressure 1
+                Type:   Surface Goal
+                Goal type:   Total Pressure
+                Calculate:   Average value
+                Faces:   holder-2@helix_turbine_assembly, connecting_rod-1@helix_turbine_assembly, connecting_rod-5@helix_turbine_assembly, helix_rotor-2@helix_turbine_assembly, holder-1@helix_turbine_assembly, holder-5@helix_turbine_assembly, shaft-1@helix_turbine_assembly, stand-2@helix_turbine_assembly, connector-5@helix_turbine_assembly, connecting_rod-7@helix_turbine_assembly, connecting_rod-11@helix_turbine_assembly, helix_rotor-1@helix_turbine_assembly, connecting_rod-9@helix_turbine_assembly, helix_rotor-4@helix_turbine_assembly, connector-1@helix_turbine_assembly, connecting_rod-2@helix_turbine_assembly
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            SG Max Total Pressure 1
+                Type:   Surface Goal
+                Goal type:   Total Pressure
+                Calculate:   Maximum value
+                Faces:   holder-2@helix_turbine_assembly, connecting_rod-1@helix_turbine_assembly, connecting_rod-5@helix_turbine_assembly, helix_rotor-2@helix_turbine_assembly, holder-1@helix_turbine_assembly, holder-5@helix_turbine_assembly, shaft-1@helix_turbine_assembly, stand-2@helix_turbine_assembly, connector-5@helix_turbine_assembly, connecting_rod-7@helix_turbine_assembly, connecting_rod-11@helix_turbine_assembly, helix_rotor-1@helix_turbine_assembly, connecting_rod-9@helix_turbine_assembly, helix_rotor-4@helix_turbine_assembly, connector-1@helix_turbine_assembly, connecting_rod-2@helix_turbine_assembly
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            SG Av Dynamic Pressure 1
+                Type:   Surface Goal
+                Goal type:   Dynamic Pressure
+                Calculate:   Average value
+                Faces:   holder-2@helix_turbine_assembly, connecting_rod-1@helix_turbine_assembly, connecting_rod-5@helix_turbine_assembly, helix_rotor-2@helix_turbine_assembly, holder-1@helix_turbine_assembly, holder-5@helix_turbine_assembly, shaft-1@helix_turbine_assembly, stand-2@helix_turbine_assembly, connector-5@helix_turbine_assembly, connecting_rod-7@helix_turbine_assembly, connecting_rod-11@helix_turbine_assembly, helix_rotor-1@helix_turbine_assembly, connecting_rod-9@helix_turbine_assembly, helix_rotor-4@helix_turbine_assembly, connector-1@helix_turbine_assembly, connecting_rod-2@helix_turbine_assembly
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            SG Max Dynamic Pressure 1
+                Type:   Surface Goal
+                Goal type:   Dynamic Pressure
+                Calculate:   Maximum value
+                Faces:   holder-2@helix_turbine_assembly, connecting_rod-1@helix_turbine_assembly, connecting_rod-5@helix_turbine_assembly, helix_rotor-2@helix_turbine_assembly, holder-1@helix_turbine_assembly, holder-5@helix_turbine_assembly, shaft-1@helix_turbine_assembly, stand-2@helix_turbine_assembly, connector-5@helix_turbine_assembly, connecting_rod-7@helix_turbine_assembly, connecting_rod-11@helix_turbine_assembly, helix_rotor-1@helix_turbine_assembly, connecting_rod-9@helix_turbine_assembly, helix_rotor-4@helix_turbine_assembly, connector-1@helix_turbine_assembly, connecting_rod-2@helix_turbine_assembly
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            SG Av Velocity 1
+                Type:   Surface Goal
+                Goal type:   Velocity
+                Calculate:   Average value
+                Faces:   holder-2@helix_turbine_assembly, connecting_rod-1@helix_turbine_assembly, connecting_rod-5@helix_turbine_assembly, helix_rotor-2@helix_turbine_assembly, holder-1@helix_turbine_assembly, holder-5@helix_turbine_assembly, shaft-1@helix_turbine_assembly, stand-2@helix_turbine_assembly, connector-5@helix_turbine_assembly, connecting_rod-7@helix_turbine_assembly, connecting_rod-11@helix_turbine_assembly, helix_rotor-1@helix_turbine_assembly, connecting_rod-9@helix_turbine_assembly, helix_rotor-4@helix_turbine_assembly, connector-1@helix_turbine_assembly, connecting_rod-2@helix_turbine_assembly
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            SG Max Velocity 1
+                Type:   Surface Goal
+                Goal type:   Velocity
+                Calculate:   Maximum value
+                Faces:   holder-2@helix_turbine_assembly, connecting_rod-1@helix_turbine_assembly, connecting_rod-5@helix_turbine_assembly, helix_rotor-2@helix_turbine_assembly, holder-1@helix_turbine_assembly, holder-5@helix_turbine_assembly, shaft-1@helix_turbine_assembly, stand-2@helix_turbine_assembly, connector-5@helix_turbine_assembly, connecting_rod-7@helix_turbine_assembly, connecting_rod-11@helix_turbine_assembly, helix_rotor-1@helix_turbine_assembly, connecting_rod-9@helix_turbine_assembly, helix_rotor-4@helix_turbine_assembly, connector-1@helix_turbine_assembly, connecting_rod-2@helix_turbine_assembly
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            SG Av Velocity (X) 1
+                Type:   Surface Goal
+                Goal type:   Velocity (X)
+                Calculate:   Average value
+                Faces:   holder-2@helix_turbine_assembly, connecting_rod-1@helix_turbine_assembly, connecting_rod-5@helix_turbine_assembly, helix_rotor-2@helix_turbine_assembly, holder-1@helix_turbine_assembly, holder-5@helix_turbine_assembly, shaft-1@helix_turbine_assembly, stand-2@helix_turbine_assembly, connector-5@helix_turbine_assembly, connecting_rod-7@helix_turbine_assembly, connecting_rod-11@helix_turbine_assembly, helix_rotor-1@helix_turbine_assembly, connecting_rod-9@helix_turbine_assembly, helix_rotor-4@helix_turbine_assembly, connector-1@helix_turbine_assembly, connecting_rod-2@helix_turbine_assembly
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            SG Max Velocity (X) 1
+                Type:   Surface Goal
+                Goal type:   Velocity (X)
+                Calculate:   Maximum value
+                Faces:   holder-2@helix_turbine_assembly, connecting_rod-1@helix_turbine_assembly, connecting_rod-5@helix_turbine_assembly, helix_rotor-2@helix_turbine_assembly, holder-1@helix_turbine_assembly, holder-5@helix_turbine_assembly, shaft-1@helix_turbine_assembly, stand-2@helix_turbine_assembly, connector-5@helix_turbine_assembly, connecting_rod-7@helix_turbine_assembly, connecting_rod-11@helix_turbine_assembly, helix_rotor-1@helix_turbine_assembly, connecting_rod-9@helix_turbine_assembly, helix_rotor-4@helix_turbine_assembly, connector-1@helix_turbine_assembly, connecting_rod-2@helix_turbine_assembly
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            SG Av Velocity (Y) 1
+                Type:   Surface Goal
+                Goal type:   Velocity (Y)
+                Calculate:   Average value
+                Faces:   holder-2@helix_turbine_assembly, connecting_rod-1@helix_turbine_assembly, connecting_rod-5@helix_turbine_assembly, helix_rotor-2@helix_turbine_assembly, holder-1@helix_turbine_assembly, holder-5@helix_turbine_assembly, shaft-1@helix_turbine_assembly, stand-2@helix_turbine_assembly, connector-5@helix_turbine_assembly, connecting_rod-7@helix_turbine_assembly, connecting_rod-11@helix_turbine_assembly, helix_rotor-1@helix_turbine_assembly, connecting_rod-9@helix_turbine_assembly, helix_rotor-4@helix_turbine_assembly, connector-1@helix_turbine_assembly, connecting_rod-2@helix_turbine_assembly
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            SG Max Velocity (Y) 1
+                Type:   Surface Goal
+                Goal type:   Velocity (Y)
+                Calculate:   Maximum value
+                Faces:   holder-2@helix_turbine_assembly, connecting_rod-1@helix_turbine_assembly, connecting_rod-5@helix_turbine_assembly, helix_rotor-2@helix_turbine_assembly, holder-1@helix_turbine_assembly, holder-5@helix_turbine_assembly, shaft-1@helix_turbine_assembly, stand-2@helix_turbine_assembly, connector-5@helix_turbine_assembly, connecting_rod-7@helix_turbine_assembly, connecting_rod-11@helix_turbine_assembly, helix_rotor-1@helix_turbine_assembly, connecting_rod-9@helix_turbine_assembly, helix_rotor-4@helix_turbine_assembly, connector-1@helix_turbine_assembly, connecting_rod-2@helix_turbine_assembly
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            SG Av Velocity (Z) 1
+                Type:   Surface Goal
+                Goal type:   Velocity (Z)
+                Calculate:   Average value
+                Faces:   holder-2@helix_turbine_assembly, connecting_rod-1@helix_turbine_assembly, connecting_rod-5@helix_turbine_assembly, helix_rotor-2@helix_turbine_assembly, holder-1@helix_turbine_assembly, holder-5@helix_turbine_assembly, shaft-1@helix_turbine_assembly, stand-2@helix_turbine_assembly, connector-5@helix_turbine_assembly, connecting_rod-7@helix_turbine_assembly, connecting_rod-11@helix_turbine_assembly, helix_rotor-1@helix_turbine_assembly, connecting_rod-9@helix_turbine_assembly, helix_rotor-4@helix_turbine_assembly, connector-1@helix_turbine_assembly, connecting_rod-2@helix_turbine_assembly
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            SG Max Velocity (Z) 1
+                Type:   Surface Goal
+                Goal type:   Velocity (Z)
+                Calculate:   Maximum value
+                Faces:   holder-2@helix_turbine_assembly, connecting_rod-1@helix_turbine_assembly, connecting_rod-5@helix_turbine_assembly, helix_rotor-2@helix_turbine_assembly, holder-1@helix_turbine_assembly, holder-5@helix_turbine_assembly, shaft-1@helix_turbine_assembly, stand-2@helix_turbine_assembly, connector-5@helix_turbine_assembly, connecting_rod-7@helix_turbine_assembly, connecting_rod-11@helix_turbine_assembly, helix_rotor-1@helix_turbine_assembly, connecting_rod-9@helix_turbine_assembly, helix_rotor-4@helix_turbine_assembly, connector-1@helix_turbine_assembly, connecting_rod-2@helix_turbine_assembly
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            SG Normal Force 1
+                Type:   Surface Goal
+                Goal type:   Normal Force
+                Faces:   holder-2@helix_turbine_assembly, connecting_rod-1@helix_turbine_assembly, connecting_rod-5@helix_turbine_assembly, helix_rotor-2@helix_turbine_assembly, holder-1@helix_turbine_assembly, holder-5@helix_turbine_assembly, shaft-1@helix_turbine_assembly, stand-2@helix_turbine_assembly, connector-5@helix_turbine_assembly, connecting_rod-7@helix_turbine_assembly, connecting_rod-11@helix_turbine_assembly, helix_rotor-1@helix_turbine_assembly, connecting_rod-9@helix_turbine_assembly, helix_rotor-4@helix_turbine_assembly, connector-1@helix_turbine_assembly, connecting_rod-2@helix_turbine_assembly
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            SG Normal Force (X) 1
+                Type:   Surface Goal
+                Goal type:   Normal Force (X)
+                Faces:   holder-2@helix_turbine_assembly, connecting_rod-1@helix_turbine_assembly, connecting_rod-5@helix_turbine_assembly, helix_rotor-2@helix_turbine_assembly, holder-1@helix_turbine_assembly, holder-5@helix_turbine_assembly, shaft-1@helix_turbine_assembly, stand-2@helix_turbine_assembly, connector-5@helix_turbine_assembly, connecting_rod-7@helix_turbine_assembly, connecting_rod-11@helix_turbine_assembly, helix_rotor-1@helix_turbine_assembly, connecting_rod-9@helix_turbine_assembly, helix_rotor-4@helix_turbine_assembly, connector-1@helix_turbine_assembly, connecting_rod-2@helix_turbine_assembly
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            SG Normal Force (Y) 1
+                Type:   Surface Goal
+                Goal type:   Normal Force (Y)
+                Faces:   holder-2@helix_turbine_assembly, connecting_rod-1@helix_turbine_assembly, connecting_rod-5@helix_turbine_assembly, helix_rotor-2@helix_turbine_assembly, holder-1@helix_turbine_assembly, holder-5@helix_turbine_assembly, shaft-1@helix_turbine_assembly, stand-2@helix_turbine_assembly, connector-5@helix_turbine_assembly, connecting_rod-7@helix_turbine_assembly, connecting_rod-11@helix_turbine_assembly, helix_rotor-1@helix_turbine_assembly, connecting_rod-9@helix_turbine_assembly, helix_rotor-4@helix_turbine_assembly, connector-1@helix_turbine_assembly, connecting_rod-2@helix_turbine_assembly
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            SG Normal Force (Z) 1
+                Type:   Surface Goal
+                Goal type:   Normal Force (Z)
+                Faces:   holder-2@helix_turbine_assembly, connecting_rod-1@helix_turbine_assembly, connecting_rod-5@helix_turbine_assembly, helix_rotor-2@helix_turbine_assembly, holder-1@helix_turbine_assembly, holder-5@helix_turbine_assembly, shaft-1@helix_turbine_assembly, stand-2@helix_turbine_assembly, connector-5@helix_turbine_assembly, connecting_rod-7@helix_turbine_assembly, connecting_rod-11@helix_turbine_assembly, helix_rotor-1@helix_turbine_assembly, connecting_rod-9@helix_turbine_assembly, helix_rotor-4@helix_turbine_assembly, connector-1@helix_turbine_assembly, connecting_rod-2@helix_turbine_assembly
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            SG Force 1
+                Type:   Surface Goal
+                Goal type:   Force
+                Faces:   holder-2@helix_turbine_assembly, connecting_rod-1@helix_turbine_assembly, connecting_rod-5@helix_turbine_assembly, helix_rotor-2@helix_turbine_assembly, holder-1@helix_turbine_assembly, holder-5@helix_turbine_assembly, shaft-1@helix_turbine_assembly, stand-2@helix_turbine_assembly, connector-5@helix_turbine_assembly, connecting_rod-7@helix_turbine_assembly, connecting_rod-11@helix_turbine_assembly, helix_rotor-1@helix_turbine_assembly, connecting_rod-9@helix_turbine_assembly, helix_rotor-4@helix_turbine_assembly, connector-1@helix_turbine_assembly, connecting_rod-2@helix_turbine_assembly
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            SG Force (X) 1
+                Type:   Surface Goal
+                Goal type:   Force (X)
+                Faces:   holder-2@helix_turbine_assembly, connecting_rod-1@helix_turbine_assembly, connecting_rod-5@helix_turbine_assembly, helix_rotor-2@helix_turbine_assembly, holder-1@helix_turbine_assembly, holder-5@helix_turbine_assembly, shaft-1@helix_turbine_assembly, stand-2@helix_turbine_assembly, connector-5@helix_turbine_assembly, connecting_rod-7@helix_turbine_assembly, connecting_rod-11@helix_turbine_assembly, helix_rotor-1@helix_turbine_assembly, connecting_rod-9@helix_turbine_assembly, helix_rotor-4@helix_turbine_assembly, connector-1@helix_turbine_assembly, connecting_rod-2@helix_turbine_assembly
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            SG Force (Y) 1
+                Type:   Surface Goal
+                Goal type:   Force (Y)
+                Faces:   holder-2@helix_turbine_assembly, connecting_rod-1@helix_turbine_assembly, connecting_rod-5@helix_turbine_assembly, helix_rotor-2@helix_turbine_assembly, holder-1@helix_turbine_assembly, holder-5@helix_turbine_assembly, shaft-1@helix_turbine_assembly, stand-2@helix_turbine_assembly, connector-5@helix_turbine_assembly, connecting_rod-7@helix_turbine_assembly, connecting_rod-11@helix_turbine_assembly, helix_rotor-1@helix_turbine_assembly, connecting_rod-9@helix_turbine_assembly, helix_rotor-4@helix_turbine_assembly, connector-1@helix_turbine_assembly, connecting_rod-2@helix_turbine_assembly
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            SG Force (Z) 1
+                Type:   Surface Goal
+                Goal type:   Force (Z)
+                Faces:   holder-2@helix_turbine_assembly, connecting_rod-1@helix_turbine_assembly, connecting_rod-5@helix_turbine_assembly, helix_rotor-2@helix_turbine_assembly, holder-1@helix_turbine_assembly, holder-5@helix_turbine_assembly, shaft-1@helix_turbine_assembly, stand-2@helix_turbine_assembly, connector-5@helix_turbine_assembly, connecting_rod-7@helix_turbine_assembly, connecting_rod-11@helix_turbine_assembly, helix_rotor-1@helix_turbine_assembly, connecting_rod-9@helix_turbine_assembly, helix_rotor-4@helix_turbine_assembly, connector-1@helix_turbine_assembly, connecting_rod-2@helix_turbine_assembly
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            SG Torque (X) 1
+                Type:   Surface Goal
+                Goal type:   Torque (X)
+                Faces:   holder-2@helix_turbine_assembly, connecting_rod-1@helix_turbine_assembly, connecting_rod-5@helix_turbine_assembly, helix_rotor-2@helix_turbine_assembly, holder-1@helix_turbine_assembly, holder-5@helix_turbine_assembly, shaft-1@helix_turbine_assembly, stand-2@helix_turbine_assembly, connector-5@helix_turbine_assembly, connecting_rod-7@helix_turbine_assembly, connecting_rod-11@helix_turbine_assembly, helix_rotor-1@helix_turbine_assembly, connecting_rod-9@helix_turbine_assembly, helix_rotor-4@helix_turbine_assembly, connector-1@helix_turbine_assembly, connecting_rod-2@helix_turbine_assembly
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            SG Torque (Y) 1
+                Type:   Surface Goal
+                Goal type:   Torque (Y)
+                Faces:   holder-2@helix_turbine_assembly, connecting_rod-1@helix_turbine_assembly, connecting_rod-5@helix_turbine_assembly, helix_rotor-2@helix_turbine_assembly, holder-1@helix_turbine_assembly, holder-5@helix_turbine_assembly, shaft-1@helix_turbine_assembly, stand-2@helix_turbine_assembly, connector-5@helix_turbine_assembly, connecting_rod-7@helix_turbine_assembly, connecting_rod-11@helix_turbine_assembly, helix_rotor-1@helix_turbine_assembly, connecting_rod-9@helix_turbine_assembly, helix_rotor-4@helix_turbine_assembly, connector-1@helix_turbine_assembly, connecting_rod-2@helix_turbine_assembly
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            SG Torque (Z) 1
+                Type:   Surface Goal
+                Goal type:   Torque (Z)
+                Faces:   holder-2@helix_turbine_assembly, connecting_rod-1@helix_turbine_assembly, connecting_rod-5@helix_turbine_assembly, helix_rotor-2@helix_turbine_assembly, holder-1@helix_turbine_assembly, holder-5@helix_turbine_assembly, shaft-1@helix_turbine_assembly, stand-2@helix_turbine_assembly, connector-5@helix_turbine_assembly, connecting_rod-7@helix_turbine_assembly, connecting_rod-11@helix_turbine_assembly, helix_rotor-1@helix_turbine_assembly, connecting_rod-9@helix_turbine_assembly, helix_rotor-4@helix_turbine_assembly, connector-1@helix_turbine_assembly, connecting_rod-2@helix_turbine_assembly
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+    Goals
+                
+                Name                        	Unit   	Value       	Progress   	Criteria      	Delta         	Use in convergence 
+                SG Av Static Pressure 1     	Pa     	101355.28   	100        	22.3086417    	4.95280487    	On                 
+                SG Max Static Pressure 1    	Pa     	105365.08   	100        	608.622284    	132.216888    	On                 
+                SG Av Total Pressure 1      	Pa     	101355.28   	100        	22.3086417    	4.95280487    	On                 
+                SG Max Total Pressure 1     	Pa     	105365.08   	100        	608.622284    	132.216888    	On                 
+                SG Av Dynamic Pressure 1    	Pa     	0           	100        	0             	0             	On                 
+                SG Max Dynamic Pressure 1   	Pa     	0           	100        	0             	0             	On                 
+                SG Av Velocity 1            	m/s    	0           	100        	0             	0             	On                 
+                SG Max Velocity 1           	m/s    	0           	100        	0             	0             	On                 
+                SG Av Velocity (X) 1        	m/s    	0           	100        	0             	0             	On                 
+                SG Max Velocity (X) 1       	m/s    	0           	100        	0             	0             	On                 
+                SG Av Velocity (Y) 1        	m/s    	0           	100        	0             	0             	On                 
+                SG Max Velocity (Y) 1       	m/s    	0           	100        	0             	0             	On                 
+                SG Av Velocity (Z) 1        	m/s    	0           	100        	0             	0             	On                 
+                SG Max Velocity (Z) 1       	m/s    	0           	100        	0             	0             	On                 
+                SG Normal Force 1           	N      	42.340      	100        	6.31581206    	2.8736949     	On                 
+                SG Normal Force (X) 1       	N      	-5.508      	100        	0.890407875   	0.730869558   	On                 
+                SG Normal Force (Y) 1       	N      	-41.848     	100        	6.24490123    	2.83485889    	On                 
+                SG Normal Force (Z) 1       	N      	-3.321      	100        	0.504858401   	0.209794236   	On                 
+                SG Force 1                  	N      	43.012      	100        	6.41639418    	2.87341198    	On                 
+                SG Force (X) 1              	N      	-5.480      	100        	0.886911966   	0.733291378   	On                 
+                SG Force (Y) 1              	N      	-42.533     	100        	6.34734482    	2.8358978     	On                 
+                SG Force (Z) 1              	N      	-3.308      	100        	0.5042544     	0.211981522   	On                 
+                SG Torque (X) 1             	N*m    	-15.216     	100        	2.26796245    	1.16103211    	On                 
+                SG Torque (Y) 1             	N*m    	1.492       	100        	0.270673592   	0.235522523   	On                 
+                SG Torque (Z) 1             	N*m    	-2.520      	100        	0.375690695   	0.203547111   	On                 
+
+    General Info
+                Run at:   DESKTOP-NEMM529
+                Number of cores:   4
+                Iterations:   50
+                CPU time:   19 s
+
+        Log
+                Mesh generation started	0:   21:24:45 , Apr 25
+                Mesh generation normally finished	0:   21:24:52 , Apr 25
+                Preparing data for calculation	0:   21:24:52 , Apr 25
+                Calculation started	0:   21:24:55 , Apr 25
+                Calculation has converged since the following criteria are satisfied:	49:   21:25:12 , Apr 25
+                    Goals are converged	49:   
+                Calculation finished	50:   21:25:14 , Apr 25
